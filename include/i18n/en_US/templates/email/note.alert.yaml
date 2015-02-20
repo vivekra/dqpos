@@ -1,0 +1,137 @@
+#
+# Email template: note.alert.yaml
+#
+# Sent to staff members when a new internal note is appended to a ticket.
+# Internal notes can only be added by staff members.
+#
+---
+notes: |
+    Sent to staff members when a new internal note is appended to a ticket.
+    Internal notes can only be added by staff members.
+
+subject: |
+    New Internal Note Alert
+body: |
+    <h3><strong>Hi %{recipient.name},</strong></h3>
+    An internal note has been appended to ticket <a
+    href="%{ticket.staff_link}">#%{ticket.number}</a>
+    <br>
+    <br>
+    <table>
+    <tbody>
+    <tr>
+        <td>
+            <strong>From</strong>:
+        </td>
+        <td>
+            %{note.poster}
+        </td>
+    </tr>
+	
+	<tr>
+        <td>
+             <strong>From</strong>:
+        </td>
+        <td>
+             %{ticket.name} &lt;%{ticket.email}&gt;
+        </td>
+		<td>
+             <strong>Serial Number</strong>:
+        </td>
+		<td>
+             %{ticket.serialno} 
+        </td>
+	<td>
+             <strong>Model</strong>:
+        </td>
+	 <td>
+             %{ticket.model}
+        </td>
+	
+	<td>
+             <strong>Manufactrer</strong>:
+        </td>
+	 <td>
+             %{ticket.manu}
+        </td>
+	
+	<td>
+             <strong>Nature of Call</strong>:
+        </td>
+	 <td>
+             %{ticket.natureofcall}
+        </td>
+	
+	<td>
+             <strong>Site Contact Name</strong>:
+        </td>
+	 <td>
+             %{ticket.scntname}
+        </td>
+	
+	<td>
+             <strong>Site Contact Mobile</strong>:
+        </td>
+	 <td>
+             %{ticket.scntmob}
+        </td>
+	
+	<td>
+             <strong>Site Contact Email</strong>:
+        </td>
+	 <td>
+             %{ticket.scntemail}
+        </td>
+	
+	<td>
+	
+	<td>
+             <strong>Site Address</strong>:
+        </td>
+	 <td>
+             %{ticket.saddress}
+        </td>
+	
+	
+             <strong>Site Location</strong>:
+        </td>
+	 <td>
+             %{ticket.slocation}
+        </td>
+	
+   
+   </tr>
+    <tr>
+        <td>
+             <strong>Department</strong>:
+        </td>
+        <td>
+             %{ticket.dept.name}
+        </td>
+    </tr>
+	
+	
+    <tr>
+        <td>
+            <strong>Title</strong>:
+        </td>
+        <td>
+            %{note.title}
+        </td>
+    </tr>
+    </tbody>
+    </table>
+    <br>
+    %{note.message}
+    <br>
+    <br>
+    <hr>
+    To view/respond to the ticket, please <a
+    href="%{ticket.staff_link}">login</a> to the support ticket system
+    <br>
+    <br>
+    <em style="font-size: small; ">Your friendly Customer Support
+    System</em>
+    <br>
+    %{company.name} Team,
+	%{signature}

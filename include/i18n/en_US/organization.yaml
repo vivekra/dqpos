@@ -1,0 +1,22 @@
+#
+# Initial organizations defined for the system.
+#
+# Fields:
+# name - Descriptive name for the organization
+# fields - custom fields
+#
+---
+- name: TesNow
+  fields:
+    address:|
+        DigitalQ Information Services Pvt Ltd
+        No:22, 1st Cross Street, East Puthuvai Nagar, Chrompet,
+		Chennai - 600 044.
+    phone: 91-(044)-2265-1990
+    website: http://dqserv.com
+    notes: >
+        Not only do we develop the software, we also use it to manage
+        support for TesNow. Let us help you quickly implement and leverage
+        the full potential of TesNow's features and functionality. Contact
+        us for professional support or visit our website for documentation
+        and community support.

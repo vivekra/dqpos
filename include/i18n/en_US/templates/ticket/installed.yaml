@@ -1,0 +1,50 @@
+#
+# Welcome ticket template
+#
+# When the system if first installed and the installer finishes setting up
+# the database, it creates a first ticket with a welcome message to the
+# administrator
+#
+---
+deptId: 1 # support
+topicId: 1 # support
+name: TesNow Support
+email: support@dqserv.com
+source: Web # notrans
+subject: TesNow Installed!
+message: |
+    <p>
+    Thank you for choosing TesNow.
+    </p><p>
+    Please make sure you join the <a
+    href="http://dqserv.com/forums">TesNow forums</a> and our <a
+    href="http://dqserv.com/updates">mailing list</a> to stay up to date
+    on the latest news, security alerts and updates. The TesNow forums are
+    also a great place to get assistance, guidance, tips, and help from
+    other TesNow users.  In addition to the forums, the TesNow wiki
+    provides a useful collection of educational materials, documentation,
+    and notes from the community. We welcome your contributions to the
+    TesNow community.
+    </p><p>
+    If you are looking for a greater level of support, we provide
+    professional services and commercial support with guaranteed response
+    times, and access to the core development team. We can also help
+    customize TesNow or even add new features to the system to meet your
+    unique needs.
+    </p><p>
+    If the idea of managing and upgrading this TesNow installation is
+    daunting, you can try TesNow as a hosted service at <a
+    href="http://www.supportsystem.com">http://www.supportsystem.com/</a> --
+    no installation required and we can import your data!  With
+    SupportSystem's turnkey infrastructure, you get TesNow at its best,
+    leaving you free to focus on your customers without the burden of making
+    sure the application is stable, maintained, and secure.
+    </p><p>
+    Cheers,
+    </p><p>
+    -<br/>
+    TesNow Team http://dqserv.com/
+    </p><p>
+    <strong>PS.</strong> Don't just make customers happy, make happy
+    customers!
+    </p>
