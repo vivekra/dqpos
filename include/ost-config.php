@@ -41,10 +41,10 @@ define('ADMIN_EMAIL','webadmin@dqserv.com');
 # ---------------------------------------------------
 # Mysql Login info
 define('DBTYPE','mysql');
-define('DBHOST','mysql1213.ixwebhosting.com');
-define('DBNAME','A965863_posiflex');
-define('DBUSER','A965863_dqs');
-define('DBPASS','Zaq12wsx');
+define('DBHOST','localhost');
+define('DBNAME','dqst');
+define('DBUSER','dquser');
+define('DBPASS','abc123');
 
 
 
